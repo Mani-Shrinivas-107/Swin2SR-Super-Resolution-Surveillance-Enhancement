@@ -21,3 +21,16 @@ A proactive deep learning system designed to transform passive surveillance into
 
 ##  License
 This project is licensed under the MIT License.
+
+Swin2SR_Project/
+├── dataset/             # (Local Only) Contains DIV2K/Surveillance training data
+├── inputs/              # Low-resolution source images (e.g., image1.jpg)
+├── models/              # Core architecture logic
+│   ├── __init__.py      # Package initialization
+│   └── network_swins2sr.py # SwinV2 Transformer implementation
+├── results/             # SR outputs (e.g., enhanced_image1.png)
+├── weights/             # (Local Only) Pre-trained model weights (.pth)
+├── .gitignore           # Instructions to exclude heavy files from Git
+├── LICENSE              # MIT License
+├── README.md            # Project documentation
+└── run_sr.py            # Main execution script for inference
